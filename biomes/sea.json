@@ -1,0 +1,24 @@
+{
+    "name": "Sea",
+    "color": "#0F1243",
+    "rarity": 1,
+    "derivative": "SAVANNA_PLATEAU",
+    "generators": [{
+        "min": 0,
+        "max": 30,
+        "generator": "smooth-dunes"
+    }],
+    "layers": [
+        {
+            "minHeight": 20,
+            "maxHeight": 30,
+            "palette": [{"block": "minecraft:lapis_block"}]
+        },
+        {
+            "minHeight": 20,
+            "maxHeight": 30,
+            "palette": [{"block": "minecraft:stone"}]
+        }
+    ]
+
+}

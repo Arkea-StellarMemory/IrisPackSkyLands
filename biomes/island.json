@@ -1,0 +1,49 @@
+{
+    "name": "Island",
+    "color": "#3FF233",
+    "rarity": 1,
+    "derivative": "SAVANNA_PLATEAU",
+    "generators": [{
+        "min": 0,
+        "max": 30,
+        "generator": "smooth-dunes"
+    }],
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 20,
+            "maxHeight": 30,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 300,
+            "maxHeight": 300,
+            "palette": [{"block": "minecraft:air"}]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "FAST_MAX_HEIGHT",
+            "chance": 1,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 270,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/pine_medium04"
+            ],
+            "bore": false,
+            "onwater": false
+        }
+    ]
+
+}

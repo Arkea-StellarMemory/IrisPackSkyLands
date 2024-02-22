@@ -1,0 +1,17 @@
+{
+    "name": "Empty",
+    "color": "#FFFFFF",
+    "rarity": 25,
+    "landBiomes": [
+        "island"
+    ],
+    "seaBiomes": [
+        "sea"
+    ],
+    "shoreBiomes": [
+        "air"
+    ],
+    "shoreBiomeZoom": 0.0001,
+    "shoreHeightMax": 0,
+    "shoreHeightMin": 0
+}

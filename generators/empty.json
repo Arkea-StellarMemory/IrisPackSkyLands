@@ -1,0 +1,15 @@
+{
+    "interpolator": {
+        "horizontalScale": 1,
+        "function": "BILINEAR_STARCAST_9"
+    },
+    "seed": 234324,
+    "composite": [
+        {
+            "style": {
+                "style": "CELLULAR"
+            },
+            "seed": 53234
+        }
+    ]
+}

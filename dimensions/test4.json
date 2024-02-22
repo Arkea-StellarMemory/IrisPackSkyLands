@@ -1,0 +1,27 @@
+{
+    "name": "Test4",
+    "version": 1,
+    "environment": "NORMAL",
+    "regions": [
+        "empty",
+        "test"
+    ],
+    "fluidHeight": 54,
+    "ravines": false,
+    "vanillaCaves": false,
+    "vanillaStructures": false,
+    "biomeZoom": 1,
+    "regionZoom": 7.5,
+    "landChance": 0.5,
+    "bedrock": false,
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "minecraft:air"
+            }
+        ]
+    },
+    "regionStyle":{
+        "style": "CELLULAR"
+    }
+}

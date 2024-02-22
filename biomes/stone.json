@@ -1,0 +1,24 @@
+{
+    "name": "Stone",
+    "color": "#3FF233",
+    "rarity": 1,
+    "derivative": "FOREST",
+    "generators": [{
+        "min": 0,
+        "max": 30,
+        "generator": "smooth-dunes"
+    }],
+    "layers": [
+        {
+            "minHeight": 20,
+            "maxHeight": 30,
+            "palette": [{"block": "minecraft:stone"}]
+        },
+        {
+            "minHeight": 20,
+            "maxHeight": 30,
+            "palette": [{"block": "minecraft:stone"}]
+        }
+    ]
+
+}
