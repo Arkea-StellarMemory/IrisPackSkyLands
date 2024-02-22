@@ -9,7 +9,7 @@
         "[json]": {
             "editor.autoIndent": "brackets",
             "editor.acceptSuggestionOnEnter": "smart",
-            "editor.cursorSmoothCaretAnimation": "on",
+            "editor.cursorSmoothCaretAnimation": true,
             "editor.dragAndDrop": false,
             "files.trimTrailingWhitespace": true,
             "diffEditor.ignoreTrimWhitespace": true,

@@ -719,6 +719,7 @@
         ]},
         "erzregions": {"enum": [
             "test",
+            "empty_fractured",
             "empty"
         ]},
         "enum-snippet-dimension-mode": {"enum": []},

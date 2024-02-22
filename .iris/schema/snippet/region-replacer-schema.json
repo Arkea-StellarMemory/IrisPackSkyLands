@@ -23,6 +23,7 @@
     ],
     "definitions": {"erzregions": {"enum": [
         "test",
+        "empty_fractured",
         "empty"
     ]}}
 }

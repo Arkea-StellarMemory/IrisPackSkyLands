@@ -4,7 +4,10 @@
     "environment": "NORMAL",
     "regions": [
         "empty",
-        "test"
+        "empty_fractured",
+        "test",
+        "test1",
+        "test2"
     ],
     "fluidHeight": 54,
     "ravines": false,
@@ -22,6 +25,13 @@
         ]
     },
     "regionStyle":{
-        "style": "CELLULAR"
+        "style": "CELLULAR_IRIS_DOUBLE",
+        "axialFracturing": true,
+        "fracture": {
+            "style": "GLOB",
+            "axialFracturing": true,
+            "zoom": 0.1,
+            "multiplier": 50
+        }
     }
 }

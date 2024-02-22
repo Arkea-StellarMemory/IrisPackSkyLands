@@ -1,8 +1,9 @@
 {
-    "name": "Test",
-    "color": "#000000",
-    "rarity": 1,
+    "name": "Empty Fractured",
+    "color": "#999999",
+    "rarity": 128,
     "landBiomes": [
+        "island",
         "air"
     ],
     "seaBiomes": [
@@ -11,6 +12,7 @@
     "shoreBiomes": [
         "air"
     ],
+    "landBiomeZoom": 0.75,
     "shoreBiomeZoom": 0.0001,
     "shoreHeightMax": 0,
     "shoreHeightMin": 0
