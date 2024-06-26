@@ -1,0 +1,25 @@
+{
+    "name": "Island Main",
+    "wall": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {"block": "minecraft:yellow_terracotta"}
+        ]
+    },
+    "layers": [{
+        "style": {"style": "STATIC"},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:yellow_terracotta"}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "style": {"style": "STATIC"},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:yellow_terracotta"}
+        ]
+    }]
+}

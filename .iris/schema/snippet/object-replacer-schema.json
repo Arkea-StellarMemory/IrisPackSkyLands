@@ -24,9 +24,13 @@
     "definitions": {
         "erzobjects": {"enum": ["trees/pine_medium04"]},
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]}

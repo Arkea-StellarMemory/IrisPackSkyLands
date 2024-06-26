@@ -1,0 +1,42 @@
+{
+    "fill": {
+        "block": "minecraft:white_concrete"
+    },
+    "verticalRange": {
+        "max": 400,
+        "min": 1
+    },
+    "customBiome": "air",
+    "worm": {
+        "girth": {
+            "max": 9,
+            "min": 2,
+            "style": {"style": "NOWHERE"}
+        },
+        "maxDistance": 35,
+        "yStyle": {
+            "min": -7,
+            "max": 7,
+            "generator": {
+                "zoom": 1,
+                "style": "NOWHERE"
+            }
+        },
+        "xStyle": {
+            "min": -7,
+            "max": 7,
+            "generator": {
+                "zoom": 1,
+                "style": "NOWHERE"
+            }
+        },
+        "zStyle": {
+            "min": -7,
+            "max": 7,
+            "generator": {
+                "zoom": 1,
+                "style": "NOWHERE"
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Carving Air",
+    "wall": {
+        "palette": [
+            {
+                "block": "minecraft:granite"
+            }
+        ]
+    },
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:andesite"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            },
+            "minHeight": 2,
+            "maxHeight": 2
+        }
+    ],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.03,
+            "absoluteMaxStack": 15,
+            "scaleStack": true,
+            "stackMin": 1,
+            "stackMax": 15,
+            "palette": [
+                {
+                    "block": "minecraft:tuff"
+                }
+            ]
+        }
+    ],
+    "caveCeilingLayers": [
+        {
+            "style": {
+                "style": "STATIC"
+            },
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [
+                {
+                    "block": "minecraft:blue_terracotta"
+                }
+            ]
+        }
+    ]
+}

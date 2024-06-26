@@ -2259,7 +2259,11 @@
             },
             {"type": "string"}
         ]},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": [
+            "deep/main",
+            "air",
+            "islandbot"
+        ]},
         "enum-snippet-fluid-bodies": {"enum": []},
         "obj-com-volmit-iris-engine-object-irisenchantment": {"anyOf": [
             {
@@ -3444,9 +3448,13 @@
             {"type": "string"}
         ]},
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]},
@@ -6542,7 +6550,7 @@
             {"type": "string"}
         ]},
         "erzloot": {"enum": []},
-        "erzravines": {"enum": []},
+        "erzravines": {"enum": ["islandbot"]},
         "obj-com-volmit-iris-engine-object-irisobjectplacement": {"anyOf": [
             {
                 "description": "Represents an iris object placer. It places objects.",

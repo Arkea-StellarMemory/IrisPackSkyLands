@@ -22,8 +22,10 @@
         {"type": "string"}
     ],
     "definitions": {"erzregions": {"enum": [
+        "test2",
         "test",
         "empty_fractured",
+        "test1",
         "empty"
     ]}}
 }

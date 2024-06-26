@@ -250,8 +250,10 @@
             {"type": "string"}
         ]},
         "erzregions": {"enum": [
+            "test2",
             "test",
             "empty_fractured",
+            "test1",
             "empty"
         ]},
         "obj-com-volmit-iris-engine-object-irisobjectreplace": {"anyOf": [
@@ -1095,9 +1097,13 @@
         "enum-snippet-stilt-settings": {"enum": []},
         "enum-snippet-object-limit": {"enum": []},
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]},

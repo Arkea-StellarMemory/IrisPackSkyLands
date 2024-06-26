@@ -23,15 +23,21 @@
     ],
     "definitions": {
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]},
         "erzregions": {"enum": [
+            "test2",
             "test",
             "empty_fractured",
+            "test1",
             "empty"
         ]}
     }

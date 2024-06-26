@@ -2250,7 +2250,11 @@
             },
             {"type": "string"}
         ]},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": [
+            "deep/main",
+            "air",
+            "islandbot"
+        ]},
         "enum-snippet-fluid-bodies": {"enum": []},
         "enum-snippet-style": {"enum": []},
         "oneof-enum-com-volmit-iris-engine-object-irisweather": {"oneOf": [
@@ -3997,7 +4001,7 @@
             "minecraft:potted_azalea_bush",
             "minecraft:potted_flowering_azalea_bush"
         ]},
-        "erzravines": {"enum": []},
+        "erzravines": {"enum": ["islandbot"]},
         "obj-com-volmit-iris-engine-object-irisobjectlimit": {"anyOf": [
             {
                 "description": "Translate objects",
@@ -5886,9 +5890,13 @@
             {"type": "string"}
         ]},
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]},

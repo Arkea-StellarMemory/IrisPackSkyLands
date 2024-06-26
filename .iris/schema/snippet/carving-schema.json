@@ -1091,12 +1091,20 @@
             },
             {"type": "string"}
         ]},
-        "erzravines": {"enum": []},
-        "erzcaves": {"enum": []},
+        "erzravines": {"enum": ["islandbot"]},
+        "erzcaves": {"enum": [
+            "deep/main",
+            "air",
+            "islandbot"
+        ]},
         "erzbiomes": {"enum": [
+            "carving/islandmain",
+            "carving/air",
             "island",
             "shore",
+            "carving/rocky",
             "air",
+            "carving/deepslate",
             "sea",
             "stone"
         ]},

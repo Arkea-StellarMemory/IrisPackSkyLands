@@ -895,7 +895,11 @@
             },
             {"type": "string"}
         ]},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": [
+            "deep/main",
+            "air",
+            "islandbot"
+        ]},
         "erzexpressions": {"enum": []},
         "enum-snippet-style": {"enum": []},
         "erzimages": {"enum": []},

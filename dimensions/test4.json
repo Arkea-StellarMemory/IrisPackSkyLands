@@ -10,9 +10,6 @@
         "test2"
     ],
     "fluidHeight": 54,
-    "ravines": false,
-    "vanillaCaves": false,
-    "vanillaStructures": false,
     "biomeZoom": 1,
     "regionZoom": 7.5,
     "landChance": 0.5,
@@ -33,5 +30,25 @@
             "zoom": 0.1,
             "multiplier": 50
         }
-    }
+    },
+    "caveBiomeStyle": {
+        "style": "FRACTAL_CUBIC"
+    },
+    "carving": {
+        "caves": [
+            {
+                "breakSurface": true,
+                "cave": "deep/main",
+                "rarity": 1,
+                "caveStartHeight": {
+                    "style": {
+                        "style": "STATIC"
+                    },
+                    "min": 12,
+                    "max": 124
+                }
+            }
+        ]
+    },
+    "useMantle": true
 }

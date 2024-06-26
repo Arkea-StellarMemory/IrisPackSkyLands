@@ -1215,8 +1215,10 @@
             {"type": "string"}
         ]},
         "erzregions": {"enum": [
+            "test2",
             "test",
             "empty_fractured",
+            "test1",
             "empty"
         ]},
         "obj-com-volmit-iris-engine-object-irisobjectreplace": {"anyOf": [
